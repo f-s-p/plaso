@@ -40,7 +40,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get dist-upgrade -y
     sudo add-apt-repository -y ppa:gift/dev && sudo apt-get update
-    sudo apt-get install -y binplist ipython libbde-python libesedb-python libevt-python libevtx-python libewf-python libfwsi-python liblnk-python libmsiecf-python libolecf-python libqcow-python libregf-python libsigscan-python libsmdev-python libsmraw-python libtsk libvhdi-python libvmdk-python libvshadow-python python-bencode python-construct python-dateutil python-dfvfs python-dpkt python-hachoir-core python-hachoir-metadata python-hachoir-parser python-protobuf python-psutil python-pyparsing python-six python-yaml python-tz pytsk3 python-mock
+    sudo apt-get install -y binplist ipython libbde-python libesedb-python libevt-python libevtx-python libewf-python libfwsi-python liblnk-python libmsiecf-python libolecf-python libqcow-python libregf-python libsigscan-python libsmdev-python libsmraw-python libtsk libvhdi-python libvmdk-python libvshadow-python python-bencode python-construct python-dateutil python-dfvfs python-docopt python-dpkt python-hachoir-core python-hachoir-metadata python-hachoir-parser python-pefile python-protobuf python-psutil python-pyparsing python-six python-yaml python-tz pytsk3 python-mock
     sudo apt-get install -y python-pip && sudo pip install pylint
   SHELL
 
